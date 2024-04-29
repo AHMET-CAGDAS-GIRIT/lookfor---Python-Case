@@ -10,3 +10,4 @@ CMD ["ollama","pull","llama2","&&","python","chatbot.py"]
 
 # We need "ollama" function to work in order to pull the llama2 LLM inside the container. 
 # However the installation of ollama isn't done on console and I don't know what to do.
+# This dockerfile can create a docker container but the chatbot.py can't function properly yet as llama2 isn't set.
